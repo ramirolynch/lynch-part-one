@@ -1,0 +1,154 @@
+body {
+    font-family: Bungee, serif;
+}
+
+header {
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+    margin-left: 1%;
+}
+
+header > img {
+    height: auto;
+    width:33%;
+}
+
+nav {
+    margin-left: auto;
+}
+
+
+nav > ul {
+    display: flex;
+}
+
+
+li {
+    list-style-type: none;
+    padding: 0 0.5em;
+
+}
+
+nav > ul > li > a {
+
+    color: #7944e6; 
+    text-decoration: none;
+}
+
+nav > ul > li > a:hover {
+
+    color: #10fdff;
+    text-decoration: none;
+    
+}
+
+section > img {
+    display:block;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5%;
+    width:33%;
+}
+
+.background-accent {
+    background-color: #ff00ff;
+    margin: 0 1em;
+}
+
+
+article > img {
+    height: auto;
+    padding-top: 5%; 
+    width:80%;
+}
+
+.center {
+    align-items: center;
+    border:0.2em solid #7944e6;
+    display:flex;
+    flex-direction:column;
+    margin: 1em auto;
+    width: 40vw;
+}
+
+article.center > h1 {
+    font-size:1.17em;
+}
+
+article.center > h2 {
+    color: #7944e6;
+    font-size: 0.8em;
+}
+
+/* article.center > h2 > a {
+    color: #7944e6;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+article.center > h2 > a:hover {
+
+    color: #10fdff;
+    text-decoration: none;
+} */
+
+#products {
+
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+    margin: 1em auto;
+    width: 40vw;
+
+}
+
+#about {
+    padding: 1em 1em 1em 1em;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    section.background-accent {
+        display:flex;
+        align-items: center;
+        background-color: #ff00ff;
+        margin: 0 1em;
+        padding: 1em 1em 1em 1em;
+    }
+
+    article#about {
+        margin-left:auto;
+    }
+
+    .center {
+        align-items: center;
+        border:0.2em solid #7944e6;
+        display:flex;
+        flex-direction:column;
+        height: 33vw;
+        justify-content: space-between;
+        margin: 1em auto;
+        width: 40vw;
+    }    
+
+    #products {
+
+        align-items: center;
+        display:flex;
+        flex-direction:row;
+        justify-content: flex-end;
+        /* margin: 1em auto; */
+        width: 90vw;
+    
+    }
+
+    #middle {
+        margin: 0 2em;
+        height: 33vw;
+    }
+
+   
+  }
